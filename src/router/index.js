@@ -8,7 +8,6 @@ import Profile from "../views/Profile.vue";
 import Signup from "../views/Signup.vue";
 import Signin from "../views/Signin.vue";
 import Permission from "../views/Permission.vue";
-import ProfileNonSales from "@/views/GooSales/ProfileNonSales.vue";
 
 import QRPage from "@/views/QRPage.vue";
 

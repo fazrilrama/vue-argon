@@ -1,11 +1,5 @@
 import { createStore } from "vuex";
 import auth from "./modules/auth";
-import menu from "./modules/menu";
-import user from "./modules/user";
-import department from "./modules/department";
-import eraforce from "./modules/eraforce";
-import administrator from "./modules/administrator";
-import hrd from "./modules/hrd";
 import axios from "axios";
 import createPersistedState from "vuex-persistedstate";
 
@@ -19,13 +13,7 @@ const ax = axios.create({
 
 export default createStore({
   modules: {
-    auth,
-    menu,
-    user,
-    department,
-    eraforce,
-    administrator,
-    hrd,
+    auth
   },
   plugins: [createPersistedState()],
   state: {
